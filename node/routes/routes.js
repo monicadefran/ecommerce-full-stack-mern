@@ -1,5 +1,5 @@
 import express from 'express'
-import { getAllstock, getStock, createStock, updateStock, deleteStock,updateImage, avatar } from '../controllers/StockController.js'
+import { getAllstock, getStock, createStock, updateStock, deleteStock,updateImage, producto } from '../controllers/StockController.js'
 
 import multer from 'multer';
 import { dirname, extname, join } from 'path';
@@ -37,9 +37,11 @@ router.get('/:id', getStock)
 router.post('/', createStock)
 router.put('/:id', updateStock)
 router.delete('/:id', deleteStock)
+router.post ('/register')
+router.post ('/login')
 
 
 router.post('/upload/:id', multerUpload.single('file'), updateImage);
-router.get("/avatar/:file", avatar);
+router.get("/producto/:file", producto);
 
 export default router

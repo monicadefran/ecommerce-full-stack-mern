@@ -102,7 +102,7 @@ export const updateImage = async (req, res) => {
 
 }
 
-export const avatar = (req, res) => {
+export const producto = (req, res) => {
     //sacar el parametro de la url
     const file = req.params.file;
   
