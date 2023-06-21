@@ -37,8 +37,7 @@ router.get('/:id', getStock)
 router.post('/', createStock)
 router.put('/:id', updateStock)
 router.delete('/:id', deleteStock)
-router.post ('/register')
-router.post ('/login')
+
 
 
 router.post('/upload/:id', multerUpload.single('file'), updateImage);

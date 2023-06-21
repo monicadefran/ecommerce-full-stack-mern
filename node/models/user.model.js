@@ -19,6 +19,9 @@ const userSchema = new Schema(
       type: String,
       required: true,
     },
-   });
+   }, {
+    timestamps:true,
+   }
+   );
 
    export default mongoose.model('User', userSchema)
