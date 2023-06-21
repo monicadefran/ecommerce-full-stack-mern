@@ -1,0 +1,255 @@
+/*Servicios*/
+
+.container__servicios{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+  }
+  
+  .main__envio{
+  border: solid;
+  border-width: thin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  }
+  
+  .main__envio:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  
+  .icono__caja{
+    width: 50px;
+  }
+  
+  .main__devoluciones{
+  border: solid;
+  border-width: thin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  }
+  
+  .main__devoluciones:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  
+  .icono__devolucion{
+    width: 50px;
+  }
+  
+  .main__seguimiento{
+    border: solid;
+  border-width: thin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 500px;
+  }
+  
+  .icono__calendario{
+    width: 50px;
+  }
+  
+  .main__seguimiento:hover{
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  
+  .container__registro{
+    display: none;
+  }
+  
+  .container__footer{
+    align-items: center;
+    align-content: center;
+  }
+  
+  /*Redes sociales */
+  
+  .rrss{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .ig{
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .ig:hover{
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  
+  }
+  
+  .tw{
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .tw:hover{
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  
+  .yt{
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .yt:hover{
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  
+  .tk{
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .tk:hover{
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  
+  .fb{
+    width: 40px;
+    cursor: pointer;
+  }
+  
+  .fb:hover{
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1)
+  }
+  
+  /*footer copy*/
+  
+  .copy{
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    background-color:rgba(232, 232, 232, 0.485) ;
+    height: 45px;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .politica{
+    margin-left: 15px;
+  }
+  
+  .imgcopy{
+    width: 20px;
+    height: 20px;
+   
+  }
+  
+  .fcopy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-right: 15px;
+  }
+  
+  /* MEDIA */
+  
+  @media (max-width: 700px) {
+    
+  
+  .container__servicios{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .main__envio{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 400px;
+  }
+  
+  .main__seguimiento{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 400px;
+  }
+  
+  .main__devoluciones{
+    border: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 400px;
+  }
+  
+  .icono__calendario{
+    margin-left: 20px;
+  }
+  
+  .container__registro{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    background: black;
+    align-items: center;
+    width: 100vw;
+  }
+  
+  .registro__texto{
+  color: white;
+  padding: 20px;
+  margin: 0;
+  }
+  
+  .main__correo{
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .fcopy{
+    display: flex;
+    align-items: center;
+  }
+  
+  .imgcopy{
+    width: 40px;
+    height: 40px;
+  }
+  
+  }
